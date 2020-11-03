@@ -153,7 +153,7 @@ python ./baselines/gail/parallel_carla_ray.py --render --res 1024x768 --nscl --s
 ```
 ## Reference
 **[Learning a Decision Module by Imitating Driver’s Control Behaviors
-](https://arxiv.org/abs/1912.00191)**
+](docs/corl2020_modulardecision.pdf)**
 <br />
 [Junning Huang*](https://scholar.google.ca/citations?user=kaSP3zIAAAAJ&hl=en), 
 [Sirui Xie*](https://scholar.google.com/citations?user=9GJn5FIAAAAJ&hl=en), 
@@ -186,7 +186,7 @@ booktitle = {Proceedings of the Conference on Robot Learning (CoRL) 2020},
 **In Proceedings of the Conference on Robot Learning (CoRL) 2020**
 <br />
 [[Paper]]()
-[[Project Page]](https://decisionforce.github.io/Modular-Decision/)
+[[Project Page]](https://decisionforce.github.io/modulardecision/)
 
 ```
 @InProceedings{Sun_2020_corl,
