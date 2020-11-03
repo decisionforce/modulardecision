@@ -24,7 +24,7 @@
     <!-- === Title Starts === -->
     <div class="header">
       <div class="logo">
-        <a href="https://genforce.github.io/" target="_blank"><img src="./assets/genforce.png"></a>
+         <!--<a href="https://genforce.github.io/" target="_blank"><img src="./assets/genforce.png"></a>-->
       </div>
       <div class="title" , style="padding-top: 25pt;">
         <!-- Set padding as 10 if title is with two lines. -->
@@ -40,17 +40,16 @@
       <a href="https://scholar.google.ca/citations?user=4m061tYAAAAJ&hl=en" target="_blank">Chunxiao Liu,</a>
       <a href="https://scholar.google.ca/citations?user=GMzzRRUAAAAJ&hl=en"
         target="_blank">Dahua Lin,</a>
-      <a href="https://scholar.google.ca/citations?user=9D4aG8AAAAAJ&hl=en"
+      <a href="http://bzhou.ie.cuhk.edu.hk/"
         target="_blank">Bolei Zhou</a>
     </div>
     <div class="institution">
-      SenseTime Research, University of California, Los Angeles,<br>
-
-      The Chinese Univsersity of Hong Kong, The Hong Kong University of Science and Technology
+      The Chinese Univsersity of Hong Kong, Technische Universität Darmstadt, University of California, Los Angeles,<br>
+      SenseTime Research, The Hong Kong University of Science and Technology
     </div>
     <div class="link">
       <a href="https://arxiv.org/abs/1912.00191" target="_blank">[Paper]</a>&nbsp;
-      <a href="https://github.com/decisionforce/Modular-Decision" target="_blank">[Code]</a>
+      <a href="https://github.com/decisionforce/modulardecision" target="_blank">[Code]</a>
     </div>
     <div class="teaser">
       <img src="./assets/deepdecision_teaser.png">
@@ -63,22 +62,7 @@
   <div class="section">
     <div class="title">Overview</div>
     <div class="body">
-      Classical autonomous driving systems are modularized as a pipeline of perception, decision, planning and control.
-      The
-      driving decision plays a central role in processing the observation from the perception as well as directing the
-      execution of downstream modules. Commonly it is designed to be rule-based and difficult to learn from data.
-      Recently
-      end-to-end neural control policy has been proposed to replace this pipeline, given its generalization ability.
-      However
-      it remains challenging to enforce physically or logically constrained behaviors. In this work, we propose a hybrid
-      framework for learning a decision module, which is agnostic to the mechanisms of perception, planning, and control
-      modules. By imitating the low-level control behavior, it learns the high-level driving decisions while bypasses
-      the
-      ambiguous annotation of high-level driving decisions. We demonstrate that the simulation agents with a learned
-      decision
-      module can be generalized to various complex driving scenarios where the rule-based approach fails. Furthermore,
-      it is
-      able to generate driving behaviors that are smoother and safer than end-to-end neural policies.
+        Autonomous driving systems have a pipeline of perception, decision, planning, and control. The decision module processes information from the perception module and directs the execution of downstream planning and control modules. On the other hand, the recent success of deep learning suggests that this pipeline could be replaced by end-to-end neural control policies, however, the safety cannot be well guaranteed for the data-driven neural networks. In this work, we propose a hybrid framework to learn neural decisions  in the classical modular pipeline through end-to-end imitation learning.  This hybrid framework can preserve the merits of the classical pipeline such as the strict enforcement of physical and logical constraints while learning complex driving decisions from data. To circumvent the ambiguous annotation of human driving decisions, our method learns high-level driving decisions by imitating low-level control behaviors. We show in the simulation experiments that our modular driving agent can generalize its driving decision and control to various complex scenarios where the rule-based programs fail. It can also generate smoother and safer driving trajectories than end-to-end neural policies. 
     </div>
   </div>
   <!-- === Overview Section Ends === -->
