@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- === Header Starts === -->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <title>Modular Decision</title>
+
+  <link href="./assets/bootstrap.min.css" rel="stylesheet">
+  <link href="./assets/font.css" rel="stylesheet" type="text/css">
+  <link href="./assets/style.css" rel="stylesheet" type="text/css">
+</head>
+<!-- === Header Ends === -->
+
+
+<body>
+
+
+  <!-- === Home Section Starts === -->
+  <div class="section">
+    <!-- === Title Starts === -->
+    <div class="header">
+      <div class="logo">
+        <a href="https://genforce.github.io/" target="_blank"><img src="./assets/genforce.png"></a>
+      </div>
+      <div class="title" , style="padding-top: 25pt;">
+        <!-- Set padding as 10 if title is with two lines. -->
+        Learning a Decision Module by Imitating Driver’s Control Behaviors
+      </div>
+    </div>
+    <!-- === Title Ends === -->
+    <div class="author">
+      <a href="https://scholar.google.ca/citations?user=kaSP3zIAAAAJ&hl=en" target="_blank">Junning Huang*,</a>&nbsp;
+      <a href="https://scholar.google.com/citations?user=9GJn5FIAAAAJ&hl=en" target="_blank">Sirui Xie*,</a>&nbsp;
+      <a href="https://scholar.google.com.hk/citations?user=726MCb8AAAAJ&hl=en" target="_blank">Jiankai Sun*,</a>
+      <a href="#" target="_blank">Qiurui Ma,</a>
+      <a href="https://scholar.google.ca/citations?user=4m061tYAAAAJ&hl=en" target="_blank">Chunxiao Liu,</a>
+      <a href="https://scholar.google.ca/citations?user=GMzzRRUAAAAJ&hl=en"
+        target="_blank">Dahua Lin,</a>
+      <a href="https://scholar.google.ca/citations?user=9D4aG8AAAAAJ&hl=en"
+        target="_blank">Bolei Zhou</a>
+    </div>
+    <div class="institution">
+      SenseTime Research, University of California, Los Angeles,<br>
+
+      The Chinese Univsersity of Hong Kong, The Hong Kong University of Science and Technology
+    </div>
+    <div class="link">
+      <a href="https://arxiv.org/abs/1912.00191" target="_blank">[Paper]</a>&nbsp;
+      <a href="https://github.com/decisionforce/Modular-Decision" target="_blank">[Code]</a>
+    </div>
+    <div class="teaser">
+      <img src="./assets/deepdecision_teaser.png">
+    </div>
+  </div>
+  <!-- === Home Section Ends === -->
+
+
+  <!-- === Overview Section Starts === -->
+  <div class="section">
+    <div class="title">Overview</div>
+    <div class="body">
+      Classical autonomous driving systems are modularized as a pipeline of perception, decision, planning and control.
+      The
+      driving decision plays a central role in processing the observation from the perception as well as directing the
+      execution of downstream modules. Commonly it is designed to be rule-based and difficult to learn from data.
+      Recently
+      end-to-end neural control policy has been proposed to replace this pipeline, given its generalization ability.
+      However
+      it remains challenging to enforce physically or logically constrained behaviors. In this work, we propose a hybrid
+      framework for learning a decision module, which is agnostic to the mechanisms of perception, planning, and control
+      modules. By imitating the low-level control behavior, it learns the high-level driving decisions while bypasses
+      the
+      ambiguous annotation of high-level driving decisions. We demonstrate that the simulation agents with a learned
+      decision
+      module can be generalized to various complex driving scenarios where the rule-based approach fails. Furthermore,
+      it is
+      able to generate driving behaviors that are smoother and safer than end-to-end neural policies.
+    </div>
+  </div>
+  <!-- === Overview Section Ends === -->
+
+
+  <!-- === Result Section Starts === -->
+  <div class="section">
+    <div class="title">Results</div>
+    <div class="body">
+      <!-- Image or GIF results here. The highlight of the work. -->
+
+      <!-- Adjust the number of rows and columns (EVERY project differs). -->
+      <!-- <table width="100%" style="margin: 20pt 0; text-align: center;">
+        <tr>
+          <td><img src="https://via.placeholder.com/300x100" width="90%"></td>
+        </tr>
+      </table> -->
+
+      <!-- Demo video here. -->
+
+      <!-- Adjust the frame size based on the demo (EVERY project differs). -->
+      <div style="position: relative; margin: 20pt 0; text-align: center;">
+        <iframe width="90%" height="500" src="https://www.youtube.com/embed/aaUAC5Iy6VY" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <!-- === Result Section Ends === -->
+
+
+  <!-- === Reference Section Starts === -->
+  <div class="section">
+    <div class="bibtex">BibTeX</div>
+    <pre>
+@InProceedings{huanglearning2020,
+author={Huang, Junning and Xie, Sirui and Sun, Jiankai and Ma, Qiurui and Liu, Chunxiao and Lin, Dahua and Zhou, Bolei},
+title={Learning a Decision Module by Imitating Driver’s Control Behaviors},
+booktitle = {Proceedings of the Conference on Robot Learning (CoRL) 2020},
+}
+@InProceedings{Sun_2020_corl,
+author={Sun, Jiankai and Sun, Hao and Han, Tian and Zhou, Bolei}
+title={Neuro-Symbolic Program Search: Towards Automatic Autonomous Driving System Design},
+booktitle = {Proceedings of the Conference on Robot Learning (CoRL) 2020}
+}
+</pre>
+
+    <!-- BZ: we should give other related work enough credits, -->
+    <!--     so please include some most relevant work and leave some comment to summarize work and the difference. -->
+    <div class="ref">Related Work</div>
+    <div class="citation">
+      <div class="image"><img src="./assets/darpa.jpg"></div>
+      <div class="comment">
+        <a href="https://link.springer.com/book/10.1007/978-3-642-03991-1" target="_blank">
+          Martin Buehler, Karl Iagnemma, Sanjiv Singh.
+          The DARPA urban challenge: autonomous vehicles in city traffic.
+          Springer</a><br>
+        <!-- <b>Comment:</b> -->
+        <!-- This is a long comment. This comment is just used to test how long comments can fit the template. -->
+      </div>
+    </div>
+    <div class="citation">
+      <div class="image"><img src="./assets/combine_corl_2019.png"></div>
+      <div class="comment">
+        <a href="http://proceedings.mlr.press/v100/bansal20a.html" target="_blank">
+          Somil Bansal, Varun Tolani, Saurabh Gupta, Jitendra Malik, Claire Tomlin.
+          Combining Optimal Control and Learning for Visual Navigation in Novel Environments.
+          Proceedings of the Conference on Robot Learning & 2019.</a><br>
+        <!-- <b>Comment:</b> -->
+        <!-- This is a long comment. This comment is just used to test how long comments can fit the template. -->
+      </div>
+    </div>
+    <!-- <div class="citation">
+      <div class="image"><img src="./assets/nsps_corl_2020.png"></div>
+      <div class="comment">
+        <a href="https://decisionforce.github.io/driving-decision/" target="_blank">
+          Jiankai Sun, Hao Sun, Tian Han, Bolei Zhou.
+          Neuro-Symbolic Program Search: TowardsAutomatic Autonomous Driving System Design.
+          Proceedings of the Conference on Robot Learning & 2020.</a><br>
+        <!-- <b>Comment:</b> -->
+    <!-- This is a short comment. -->
+  </div>
+  </div> -->
+  </div>
+  <!-- === Reference Section Ends === -->
+
+
+</body>
+
+</html>
