@@ -151,6 +151,11 @@ python ./baselines/gail/parallel_carla_ray.py --render --nscl --scenario_name Cr
 # --p_update: store_false, policy update
 python ./baselines/gail/parallel_carla_ray.py --render --res 1024x768 --nscl --scenario_name OtherLeadingVehicle --p_update --speed_mode one --host 127.0.0.1 --port 2000 --algo trpo --sn --mode wp_obj --task train --num_trajectories 100 --num_length 200 --g_step 1 --d_step 1 --d_model origin --train_mode all --batch_size 256 --actor_num 1 --policy_hidden_layer 2 --dis_max 1.3 --adversary_hidden_layer 1 --d_actv tanh --dim 3d --max_iters 1000 --D_skip 1 --A_skip 1 --d_lrate 0.00001 --scene all --region 0 --init_std 1.0 --spawn_mode random --seed 0 --save_per_iter 2 --start_v 7 --sync --other_cars 6 --model_output DM --excute_mode short --curriculumn_threshold 10000000 --lanes 5 --p_pos 0. --flag GAILCrossJoin --scenario --expert_path ./generated_expert_data_312/312_Cross_Join_21_TRPO_curriculum.pkl
 ```
+
+## Acknowledgement
+
+We used parts of code from following repositories: [OpenAI/baselines](https://github.com/openai/baselines)
+
 ## Reference
 **[Learning a Decision Module by Imitating Driver’s Control Behaviors
 ](docs/corl2020_modulardecision.pdf)**
@@ -195,3 +200,4 @@ title={Neuro-Symbolic Program Search: Towards Automatic Autonomous Driving Syste
 booktitle = {Proceedings of the Conference on Robot Learning (CoRL) 2020}
 }
 ```
+
