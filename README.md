@@ -175,7 +175,7 @@ title={Learning a Decision Module by Imitating Driver’s Control Behaviors},
 booktitle = {Proceedings of the Conference on Robot Learning (CoRL) 2020},
 }
 ```
-**[Neuro-Symbolic Program Search: TowardsAutomatic Autonomous Driving System Design
+**[Neuro-Symbolic Program Search for Autonomous Driving Decision Module Design
 ]()**
 <br />
 [Jiankai Sun](https://scholar.google.com.hk/citations?user=726MCb8AAAAJ&hl=en),
