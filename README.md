@@ -196,7 +196,7 @@ booktitle = {Proceedings of the Conference on Robot Learning (CoRL) 2020},
 ```
 @InProceedings{Sun_2020_corl,
 author={Sun, Jiankai and Sun, Hao and Han, Tian and Zhou, Bolei}
-title={Neuro-Symbolic Program Search: Towards Automatic Autonomous Driving System Design},
+title={Neuro-Symbolic Program Search for Autonomous Driving Decision Module Design},
 booktitle = {Proceedings of the Conference on Robot Learning (CoRL) 2020}
 }
 ```
