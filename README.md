@@ -171,7 +171,7 @@ We used parts of code from following repositories: [OpenAI/baselines](https://gi
 **In Proceedings of the Conference on Robot Learning (CoRL) 2020**
 <br />
 [[Paper]](https://arxiv.org/abs/1912.00191)
-[[Project Page]](https://decisionforce.github.io/Modular-Decision/)
+[[Project Page]](https://decisionforce.github.io/modulardecision/)
 
 ```
 @InProceedings{huanglearning2020,
@@ -184,13 +184,13 @@ booktitle = {Proceedings of the Conference on Robot Learning (CoRL) 2020},
 ]()**
 <br />
 [Jiankai Sun](https://scholar.google.com.hk/citations?user=726MCb8AAAAJ&hl=en),
-[Hao Sun](), 
+[Hao Sun](https://scholar.google.com/citations?hl=en&user=7ZNoHJkAAAAJ), 
 [Tian Han](https://scholar.google.com/citations?user=Qtvu5t4AAAAJ&hl=zh-CN),and
 [Bolei Zhou](https://scholar.google.ca/citations?user=9D4aG8AAAAAJ&hl=en)
 <br />
 **In Proceedings of the Conference on Robot Learning (CoRL) 2020**
 <br />
-[[Paper]]()
+[[Paper]](https://proceedings.mlr.press/v155/sun21a.html)
 [[Project Page]](https://decisionforce.github.io/modulardecision/)
 
 ```
