@@ -162,7 +162,7 @@ We used parts of code from following repositories: [OpenAI/baselines](https://gi
 <br />
 [Junning Huang*](https://scholar.google.ca/citations?user=kaSP3zIAAAAJ&hl=en), 
 [Sirui Xie*](https://scholar.google.com/citations?user=9GJn5FIAAAAJ&hl=en), 
-[Jiankai Sun*](https://scholar.google.com.hk/citations?user=726MCb8AAAAJ&hl=en),
+[Jiankai Sun*](https://scholar.google.com/citations?user=726MCb8AAAAJ&hl=en),
 [Qiurui Ma](), 
 [Chunxiao Liu](https://scholar.google.ca/citations?user=4m061tYAAAAJ&hl=en),
 [Dahua Lin](https://scholar.google.ca/citations?user=GMzzRRUAAAAJ&hl=en),and
@@ -183,7 +183,7 @@ booktitle = {Proceedings of the Conference on Robot Learning (CoRL) 2020},
 **[Neuro-Symbolic Program Search for Autonomous Driving Decision Module Design
 ]()**
 <br />
-[Jiankai Sun](https://scholar.google.com.hk/citations?user=726MCb8AAAAJ&hl=en),
+[Jiankai Sun](https://scholar.google.com/citations?user=726MCb8AAAAJ&hl=en),
 [Hao Sun](https://scholar.google.com/citations?hl=en&user=7ZNoHJkAAAAJ), 
 [Tian Han](https://scholar.google.com/citations?user=Qtvu5t4AAAAJ&hl=zh-CN),and
 [Bolei Zhou](https://scholar.google.ca/citations?user=9D4aG8AAAAAJ&hl=en)
